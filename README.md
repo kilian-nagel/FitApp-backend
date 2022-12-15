@@ -1,1 +1,3 @@
-# FitApp-backend
+# Fit-App
+
+App Structure
