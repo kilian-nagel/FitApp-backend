@@ -23,6 +23,7 @@ app.use(body_parser.urlencoded({extended:false}));
 /* Routes
 =============== */
 
+app.get('/',(req,res)=>{res.send('hello.');})
 app.use('/auth',auth_route);
 app.use('/user',users_route);
 
